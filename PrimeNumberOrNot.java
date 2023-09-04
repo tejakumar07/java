@@ -9,7 +9,7 @@ public class PrimeNumberOrNot {
         {
             System.out.println("NOT A PRIME NUMBER");
         }
-        for(int i=2;i<num;i++)
+        for(int i=2;i<num;i++)//In Place of num we can use sqrt of num to reduce its repeat numbers
         {
             if(num%i==0)
             {
